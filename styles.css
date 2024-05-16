@@ -3,8 +3,10 @@
 }
 
 #container {
+  width: 960px;
   display: flex;
   flex-wrap: wrap;
+  padding: 50px;
 }
 
 #container>div {
@@ -18,4 +20,10 @@
   width: 100%;
   border: 0;
   height: 0;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
